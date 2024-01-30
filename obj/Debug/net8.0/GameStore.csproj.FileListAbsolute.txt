@@ -615,6 +615,7 @@
 /Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.AssemblyInfo.cs
 /Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.csproj.CoreCompileInputs.cache
 /Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.MvcApplicationPartsAssemblyInfo.cache
+/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.sourcelink.json
 /Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Authorization.wasm
 /Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.wasm
 /Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Forms.wasm

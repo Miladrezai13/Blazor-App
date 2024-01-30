@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1/084JPrhgjiUJEQhSLFrkprUFopuzOm75jsvovPFYw=",
+  "Hash": "gpOzpz9NHFpElEJCa53k2rM1URtZF9NA0FsvHuZDnOc=",
   "Source": "GameStore",
   "BasePath": "/",
   "Mode": "Root",
@@ -7919,25 +7919,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
-    },
-    {
-      "Identity": "/Users/milad888/Desktop/Högskolan/GameStore/wwwroot/sample-data/weather.json",
-      "SourceId": "GameStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/milad888/Desktop/Högskolan/GameStore/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/sample-data/weather.json"
     }
   ]
 }
