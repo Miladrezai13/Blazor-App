@@ -1,3 +1,10 @@
+/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.csproj.AssemblyReference.cache
+/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.AssemblyInfoInputs.cache
+/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.AssemblyInfo.cs
+/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.csproj.CoreCompileInputs.cache
+/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.MvcApplicationPartsAssemblyInfo.cache
+/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.sourcelink.json
 /Users/milad888/Desktop/Högskolan/GameStore/bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json
 /Users/milad888/Desktop/Högskolan/GameStore/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js
 /Users/milad888/Desktop/Högskolan/GameStore/bin/Debug/net8.0/wwwroot/_framework/dotnet.js
@@ -609,13 +616,6 @@
 /Users/milad888/Desktop/Högskolan/GameStore/bin/Debug/net8.0/icudt_CJK.dat
 /Users/milad888/Desktop/Högskolan/GameStore/bin/Debug/net8.0/icudt_EFIGS.dat
 /Users/milad888/Desktop/Högskolan/GameStore/bin/Debug/net8.0/icudt_no_CJK.dat
-/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.csproj.AssemblyReference.cache
-/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.GeneratedMSBuildEditorConfig.editorconfig
-/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.AssemblyInfoInputs.cache
-/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.AssemblyInfo.cs
-/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.csproj.CoreCompileInputs.cache
-/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.MvcApplicationPartsAssemblyInfo.cache
-/Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/GameStore.sourcelink.json
 /Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Authorization.wasm
 /Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.wasm
 /Users/milad888/Desktop/Högskolan/GameStore/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Forms.wasm

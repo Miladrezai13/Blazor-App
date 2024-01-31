@@ -1,61 +1,74 @@
 ﻿@page "/"
 @using Models
-
+@inject NavigationManager NavigationManager
 
 <PageTitle>Game Catalog</PageTitle>
 
 <h1>Game Catalog</h1>
 
-<table>
-<thead>
-<th>Id</th>
-<th>Name</th>
-<th>Genre</th>
-<th>Price</th>
-<th>Relase Date</th>
-</thead>
+<div class="row mb-4">
+    <div class="col-sm-6">
+        <button type="button" class="btn btn-primary" @onclick="CreateGame">New Game</button>
+    </div>
+
+</div>
+
+@if (games is null)
+{
+    <p><em>Loading ... </em></p>
+    
+}
+else
+{
+<table class = "table table-striped table-bordered table-hover ">
+    <thead class="table-dark">
+        <th>Id</th>
+        <th>Name</th>
+        <th>Genre</th>
+        <th>Price</th>
+        <th> Relase Date</th>
+    </thead>
 <tbody>
-    @foreach (var game in games)
+    @foreach (var game in games) 
     {
         <tr>
             <td>@game.Id</td>
             <td>@game.Name</td>
             <td>@game.Genre</td>
             <td>@game.Price</td>
-            <td>@game.ReleaseDate</td>
+            <td>@game.ReleaseDate.ToString("MM/dd/yyyy")
+            </td>
+            <td>
+                <button class="btn btn-primary" @onclick = "(()=> EditGame(game.Id))">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 20h4L18.5 9.5a2.828 2.828 0 1 0-4-4L4 16zm9.5-13.5l4 4m-.499 8.5a2 2 0 1 0 4 0a2 2 0 1 0-4 0m2-3.5V17m0 4v1.5m3.031-5.25l-1.299.75m-3.463 2l-1.3.75m0-3.5l1.3.75m3.463 2l1.3.75"></path></svg>
+                    </button> 
+            </td>
         </tr>
     }
 </tbody>
 </table>
 
-@code {
-
-    private Game[] games = new []
-    {
-        new Game()
-        {
-            Id = 1, 
-            Name = "Street Fighter II",
-            Genre = "Fightning",
-            Price = 10.90M,
-            ReleaseDate = new DateTime (1991, 2, 2)
-        },
-        new Game()
-        {
-            Id = 1, 
-            Name = "Final Fantasy XIV",
-            Genre = "Roleplaying ",
-            Price = 10.90M,
-            ReleaseDate = new DateTime (1991, 2, 2)
-        },
-        new Game()
-        {
-            Id = 1, 
-            Name = "FiFA 23",
-            Genre = "Sport",
-            Price = 15.90M,
-            ReleaseDate = new DateTime (1991, 2, 2)
-        }
-
-    };
 }
+
+
+
+@code {
+    private Game[]? games;
+    protected override void OnInitialized()
+    {
+        games = GameClient.GetGames();
+    }
+    private void CreateGame()
+    {
+        NavigationManager.NavigateTo("/game");
+    }
+
+    private void EditGame(int id)
+    {
+        NavigationManager.NavigateTo ($"/game/{id}");
+    }
+}
+
+
+
+
