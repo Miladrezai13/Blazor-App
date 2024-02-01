@@ -51,7 +51,7 @@ namespace GameStore
         return games.Find(game => game.Id ==id ) ?? throw new Exception ("Could not find game !");
     }
 
-    
+
     public static void UpdateGame(Game updatedGame)
     {
         Game existingGame = GetGames(updatedGame.Id);
@@ -59,6 +59,12 @@ namespace GameStore
         existingGame.Genre = updatedGame.Genre;
         existingGame.Price = updatedGame.Price;
         existingGame.ReleaseDate = updatedGame.ReleaseDate;
+    }
+
+    public static void DeleteGame(int id)
+    {
+        Game game = GetGames(id);
+        games.Remove(game);
     }
 
 
